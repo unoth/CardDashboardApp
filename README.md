@@ -1,14 +1,14 @@
 # Card Dashboard 
 
-Application is a convenient application for managing finances. It features a modern and sleek design that is intuitive for the user.
+Application is a convenient application for managing finances. It features a modern and sleek design that is intuitive for the user. :sparkles:
 
 ## Key Features:
 
-**Display of User's Credit Card:** Users can view basic information about their credit card.
+:credit_card: **Display of User's Credit Card:** Users can view basic information about their credit card.
 
-**Contact List for Transfers:** This streamlines the transfer process and reduces the time required to enter recipient data.
+:iphone:  **Contact List for Transfers:** This streamlines the transfer process and reduces the time required to enter recipient data.
 
-**Transaction History:** App displays the complete transaction history of the user. 
+ :mag: **Transaction History:** App displays the complete transaction history of the user. 
 
 
 ## Technologies Used:
