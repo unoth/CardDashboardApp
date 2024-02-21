@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">DashboardApp</string>
+    <string name="hello_admin">Hello Admin</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="amount">$54,546,25</string>
+    <string name="send">Send</string>
+    <string name="receive">Receive</string>
+    <string name="pay_bill">Pay Bill</string>
+    <string name="add">Add</string>
+    <string name="send_money">Send Money</string>
+    <string name="contact_list">Contact List</string>
+    <string name="transaction_history">Transaction history</string>
+    <string name="see_all">See all</string>
+    <string name="buy_pizza">Buy Pizza</string>
+    <string name="payment_from_card_4456">Payment from card **4456</string>
+    <string name="historyAmount">-$15,56</string>
+    <string name="card_num">5245 5634 1094 4456</string>
+    <string name="name">Name</string>
+    <string name="name_user">Admin Adminov</string>
+    <string name="exp_data">Exp data</string>
+    <string name="exp_user_data">10/12</string>
+    <string name="home">Home</string>
+    <string name="wallet">Wallet</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
 </resources>
