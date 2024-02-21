@@ -1,6 +1,6 @@
 # Card Dashboard 
 
-Application is a convenient application for managing finances. It features a modern and sleek design that is intuitive for the user. :sparkles:
+Presented to your attention is a convenient application for managing finances. It showcases a modern and concise design intuitive for the user. :sparkles:
 
 ## Key Features:
 
