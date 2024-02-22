@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:start="12dp"
-        android:top="12dp">
+        android:width="70dp"
+        android:height="70dp"
+        android:start="2dp"
+        android:top="4dp">
         <shape android:shape="oval">
             <solid android:color="@color/shadow" />
-        </shape>
-    </item>
-    <item>
-        <shape android:shape="oval">
-            <solid android:color="#C7C8FC" />
         </shape>
     </item>
 </layer-list>

@@ -23,6 +23,7 @@
 
                 <TextView
                     android:id="@+id/textViewUser"
+                    style="@style/TextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
@@ -36,10 +37,13 @@
 
                 <ImageView
                     android:id="@+id/imageViewUser"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
                     android:layout_marginTop="32dp"
                     android:layout_marginEnd="32dp"
+                    android:background="@drawable/user_shadow"
+                    android:paddingEnd="2dp"
+                    android:paddingBottom="4dp"
                     android:src="@drawable/profile"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -47,6 +51,7 @@
 
             <TextView
                 android:id="@+id/textViewBalance"
+                style="@style/TextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/total_balance"
@@ -56,6 +61,7 @@
 
             <TextView
                 android:id="@+id/textViewAmount"
+                style="@style/TextTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/amount"
@@ -118,6 +124,7 @@
 
                             <TextView
                                 android:id="@+id/textViewSend"
+                                style="@style/TextView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
@@ -157,6 +164,7 @@
 
                             <TextView
                                 android:id="@+id/textViewReceive"
+                                style="@style/TextView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
@@ -196,6 +204,7 @@
 
                             <TextView
                                 android:id="@+id/textViewPay"
+                                style="@style/TextView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
@@ -235,6 +244,7 @@
 
                             <TextView
                                 android:id="@+id/textViewAdd"
+                                style="@style/TextView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
@@ -256,6 +266,7 @@
 
                         <TextView
                             android:id="@+id/textViewSendMoney"
+                            style="@style/TextTitle"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="32dp"
@@ -267,6 +278,7 @@
 
                         <TextView
                             android:id="@+id/textViewContacts"
+                            style="@style/TextTitle"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="32dp"
@@ -292,6 +304,7 @@
 
                         <TextView
                             android:id="@+id/textViewTransaction"
+                            style="@style/TextTitle"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="32dp"
@@ -303,6 +316,7 @@
 
                         <TextView
                             android:id="@+id/textViewSeeAll"
+                            style="@style/TextTitle"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="32dp"
@@ -332,6 +346,7 @@
                             android:id="@+id/imageViewHistory"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginEnd="2dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="@+id/viewHistory"
                             app:layout_constraintStart_toStartOf="@+id/viewHistory"
@@ -340,6 +355,7 @@
 
                         <TextView
                             android:id="@+id/textViewHistoryTitle"
+                            style="@style/TextView"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
@@ -364,6 +380,7 @@
 
                         <TextView
                             android:id="@+id/textViewHistoryAmount"
+                            style="@style/TextView"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/historyAmount"
@@ -375,15 +392,15 @@
                             app:layout_constraintStart_toEndOf="@+id/textViewDescription"
                             app:layout_constraintTop_toTopOf="parent" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
-
                 </LinearLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_marginStart="32dp"
-                    android:layout_marginEnd="32dp"
+                    android:layout_marginEnd="30dp"
                     android:background="@drawable/credit_card_bg"
+                    android:maxHeight="200dp"
                     app:layout_constraintBottom_toTopOf="@+id/linearLayout"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -411,6 +428,7 @@
 
                     <TextView
                         android:id="@+id/textViewCardNum"
+                        style="@style/TextTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -424,6 +442,7 @@
 
                     <TextView
                         android:id="@+id/textViewName"
+                        style="@style/TextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
@@ -435,6 +454,7 @@
 
                     <TextView
                         android:id="@+id/textViewNameUser"
+                        style="@style/TextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -447,6 +467,7 @@
 
                     <TextView
                         android:id="@+id/textViewExp"
+                        style="@style/TextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/exp_data"
@@ -459,6 +480,7 @@
 
                     <TextView
                         android:id="@+id/textViewExpUser"
+                        style="@style/TextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -482,7 +504,7 @@
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_margin="32dp"
+            android:layout_margin="24dp"
             android:background="@drawable/nav_bg"
             android:padding="4dp">
 
@@ -507,6 +529,7 @@
 
                     <TextView
                         android:id="@+id/textViewHome"
+                        style="@style/TextView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
@@ -531,6 +554,7 @@
 
                     <TextView
                         android:id="@+id/textViewWallet"
+                        style="@style/TextView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
@@ -555,6 +579,7 @@
 
                     <TextView
                         android:id="@+id/textViewProfile"
+                        style="@style/TextView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
@@ -579,6 +604,7 @@
 
                     <TextView
                         android:id="@+id/textViewSettings"
+                        style="@style/TextView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
